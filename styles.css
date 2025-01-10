@@ -91,7 +91,7 @@
   
   /* Card Back Styling */
   .card-back {
-    background: linear-gradient(135deg, #673ab7, #00bcd4);
+    background: linear-gradient(135deg, #ec7965, #ffeb3b);
     transform: rotateY(180deg); /* Initially hidden */
     flex-direction: column;
     padding: 20px;
