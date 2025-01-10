@@ -6,7 +6,7 @@
   }
 
   body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: "Roboto Condensed" , "Helvetica", sans-serif;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
   
   /* Card Front Styling */
   .card-front {
-    background: linear-gradient(135deg, #ec7965, #ffeb3b);
+    background: linear-gradient(135deg, #38d35a, #ffeb3ba4);
     transform: rotateY(0deg); /* Default front-facing */
     padding: 20px;
   }
@@ -71,19 +71,20 @@
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    margin-bottom: 30%;
+    margin-bottom: 5%;
     object-fit: cover;
-    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6); /* White shadow */
+    /* box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6); White shadow */
   }
   
-  .card-front h1 {
-    font-size: 24px;
-    font-weight: bold;
+  .card-front h2 {
+    font-size: 1.6em;
     margin-bottom: 10px;
+    margin-top: 20%;
   }
   
   .card-front p {
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 10%;
     color: #f9f9f9;
     padding-bottom: 1%;
     border-bottom: 2px solid white;
@@ -91,7 +92,8 @@
   
   /* Card Back Styling */
   .card-back {
-    background: linear-gradient(135deg, #ec7965, #ffeb3b);
+    font-size: 20px;
+    background: linear-gradient(135deg, #38d35a, #ffeb3ba4);
     transform: rotateY(180deg); /* Initially hidden */
     flex-direction: column;
     padding: 20px;
@@ -102,7 +104,6 @@
   }
   
   .card-back div p {
-    font-size: 14px;
     margin-bottom: 10px;
   }
 
@@ -112,7 +113,6 @@
   
   .contact-info p,
   .social-links a {
-    font-size: 14px;
     color: #f9f9f9;
     margin: 5px 0;
   }
@@ -144,7 +144,6 @@
   }
 
  .contact-info i {
-    font-size: 14px; /* Change size */
     margin-right: 8px; /* Space between icon and text */
     transition: color 0.3s ease; /* Smooth color change on hover */
   }
