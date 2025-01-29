@@ -203,27 +203,27 @@
 }
 
 .carousel-block:nth-child(2) {
-  animation-delay: -5s; /* Delay second block for staggered effect */
+  animation-delay: -4s; /* Delay second block for staggered effect */
 }
 
 .carousel-block:nth-child(3) {
-  animation-delay: -9s; /* Delay third block */
+  animation-delay: -8s; /* Delay third block */
 }
 
 .carousel-block:nth-child(4) {
-  animation-delay: -13s; /* Delay fourth block */
+  animation-delay: -12s; /* Delay fourth block */
 }
 
 .carousel-block:nth-child(5) {
-  animation-delay: -17s; /* Delay fifth block */
+  animation-delay: -16s; /* Delay fifth block */
 }
 
 .carousel-block:nth-child(6) {
-    animation-delay: -21s; /* Delay fifth block */
+    animation-delay: -20s; /* Delay fifth block */
   }
 
   .carousel-block:nth-child(7) {
-    animation-delay: -25s; /* Delay fifth block */
+    animation-delay: -24s; /* Delay fifth block */
   }
 
 /* Keyframes for moving carousel blocks from left to right */
