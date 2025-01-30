@@ -1,1 +1,1 @@
-Carousel with CSS.
+Carousel with CSS. Online -> https://juliafs.github.io/cv/
